@@ -1,4 +1,4 @@
-<mxfile host="www.draw.io" modified="2019-11-17T20:27:38.174Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.97 Safari/537.36" etag="YCf5qPLhIw76la_GLe3O" version="12.2.6" type="github" pages="1">
+<mxfile host="www.draw.io" modified="2019-11-17T20:32:43.614Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.97 Safari/537.36" etag="DXJ0Dt_CKpQGY41zjdVX" version="12.2.6" type="github" pages="1">
   <diagram id="fSTnjUqxozyH1WXjW2u6" name="Page-1">
     <mxGraphModel dx="1159" dy="628" grid="1" gridSize="10" guides="0" tooltips="1" connect="0" arrows="1" fold="1" page="1" pageScale="1" pageWidth="2336" pageHeight="1654" math="0" shadow="0">
       <root>
@@ -728,8 +728,23 @@
             <mxPoint x="780" y="790" as="targetPoint"/>
           </mxGeometry>
         </mxCell>
-        <mxCell id="vz5R5-NZ6BYvoFOIg9qu-47" value="Improvement" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+        <mxCell id="vz5R5-NZ6BYvoFOIg9qu-47" value="System Changes" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="780" y="770" width="80" height="30" as="geometry"/>
+        </mxCell>
+        <mxCell id="vz5R5-NZ6BYvoFOIg9qu-48" value="" style="verticalLabelPosition=bottom;verticalAlign=top;html=1;shape=mxgraph.basic.flash;fillColor=#FFFF00;" vertex="1" parent="1">
+          <mxGeometry x="730" y="820" width="30" height="40" as="geometry"/>
+        </mxCell>
+        <mxCell id="vz5R5-NZ6BYvoFOIg9qu-49" value="KAIZEN" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="780" y="820" width="80" height="30" as="geometry"/>
+        </mxCell>
+        <mxCell id="vz5R5-NZ6BYvoFOIg9qu-50" value="" style="verticalLabelPosition=bottom;verticalAlign=top;html=1;shape=mxgraph.basic.flash;fillColor=#FFFF00;" vertex="1" parent="1">
+          <mxGeometry x="370" y="840" width="30" height="40" as="geometry"/>
+        </mxCell>
+        <mxCell id="vz5R5-NZ6BYvoFOIg9qu-51" value="" style="verticalLabelPosition=bottom;verticalAlign=top;html=1;shape=mxgraph.basic.flash;fillColor=#FFFF00;" vertex="1" parent="1">
+          <mxGeometry x="390" y="950" width="30" height="40" as="geometry"/>
+        </mxCell>
+        <mxCell id="vz5R5-NZ6BYvoFOIg9qu-52" value="" style="verticalLabelPosition=bottom;verticalAlign=top;html=1;shape=mxgraph.basic.flash;fillColor=#FFFF00;" vertex="1" parent="1">
+          <mxGeometry x="390" y="1070" width="30" height="40" as="geometry"/>
         </mxCell>
       </root>
     </mxGraphModel>
