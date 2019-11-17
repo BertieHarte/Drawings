@@ -1,4 +1,4 @@
-<mxfile host="www.draw.io" modified="2019-11-17T20:17:35.253Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.97 Safari/537.36" etag="7loFMcPvUwfUmfG8HnTq" version="12.2.6" type="github" pages="1">
+<mxfile host="www.draw.io" modified="2019-11-17T20:20:56.276Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.97 Safari/537.36" etag="5mqHMQUv6J2UA2hgcob9" version="12.2.6" type="github" pages="1">
   <diagram id="fSTnjUqxozyH1WXjW2u6" name="Page-1">
     <mxGraphModel dx="1159" dy="628" grid="1" gridSize="10" guides="0" tooltips="1" connect="0" arrows="1" fold="1" page="1" pageScale="1" pageWidth="2336" pageHeight="1654" math="0" shadow="0">
       <root>
@@ -587,10 +587,10 @@
         <mxCell id="vz5R5-NZ6BYvoFOIg9qu-25" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=-0.005;entryY=0.65;entryDx=0;entryDy=0;entryPerimeter=0;strokeColor=#FF8000;strokeWidth=6;" edge="1" parent="1" source="vz5R5-NZ6BYvoFOIg9qu-11" target="w_aG6IEqKRQUaumx8HUq-102">
           <mxGeometry relative="1" as="geometry"/>
         </mxCell>
-        <mxCell id="vz5R5-NZ6BYvoFOIg9qu-11" value="Specifications" style="strokeWidth=2;html=1;shape=mxgraph.lean_mapping.manufacturing_process_shared;spacingTop=-5;align=center;verticalAlign=top;" vertex="1" parent="1">
+        <mxCell id="vz5R5-NZ6BYvoFOIg9qu-11" value="Specifications" style="strokeWidth=2;html=1;shape=mxgraph.lean_mapping.manufacturing_process;fontSize=12;verticalAlign=middle;html=1;align=center;whiteSpace=wrap;" vertex="1" parent="1">
           <mxGeometry x="310" y="930" width="100" height="70" as="geometry"/>
         </mxCell>
-        <mxCell id="vz5R5-NZ6BYvoFOIg9qu-12" value="Parameters" style="strokeWidth=2;html=1;shape=mxgraph.lean_mapping.manufacturing_process_shared;spacingTop=-5;align=center;verticalAlign=top;" vertex="1" parent="1">
+        <mxCell id="vz5R5-NZ6BYvoFOIg9qu-12" value="Parameters / Maintenence" style="strokeWidth=2;html=1;shape=mxgraph.lean_mapping.manufacturing_process;fontSize=12;verticalAlign=middle;html=1;align=center;whiteSpace=wrap;" vertex="1" parent="1">
           <mxGeometry x="310" y="1047.5" width="100" height="70" as="geometry"/>
         </mxCell>
         <mxCell id="vz5R5-NZ6BYvoFOIg9qu-19" value="" style="endArrow=classic;startArrow=classic;html=1;strokeColor=#FF8000;strokeWidth=6;entryX=0.5;entryY=1;entryDx=0;entryDy=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;" edge="1" parent="1" source="vz5R5-NZ6BYvoFOIg9qu-11" target="vz5R5-NZ6BYvoFOIg9qu-1">
