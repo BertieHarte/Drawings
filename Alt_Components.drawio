@@ -1,18 +1,18 @@
-<mxfile host="app.diagrams.net" modified="2021-09-29T12:31:00.712Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.77 Safari/537.36" etag="gEo8rq8h70FcOCColf2O" version="15.3.7" type="github">
+<mxfile host="app.diagrams.net" modified="2021-09-30T12:42:20.839Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.77 Safari/537.36" etag="s7GvxB6FjJIdkWNZzoC4" version="15.3.8" type="github">
   <diagram id="prtHgNgQTEPvFCAcTncT" name="Page-1">
-    <mxGraphModel dx="1038" dy="489" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1038" dy="547" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="es1huuqaGist6g62GL2a-3" value="" style="rounded=0;whiteSpace=wrap;html=1;align=center;" vertex="1" parent="1">
+        <mxCell id="es1huuqaGist6g62GL2a-3" value="" style="rounded=0;whiteSpace=wrap;html=1;align=center;" parent="1" vertex="1">
           <mxGeometry x="160" y="390" width="420" height="50" as="geometry" />
         </mxCell>
         <mxCell id="dNxyNK7c78bLwvsdeMH5-11" value="Alternative Components&amp;nbsp;" style="swimlane;html=1;startSize=20;horizontal=1;containerType=tree;glass=0;align=center;" parent="1" vertex="1">
-          <mxGeometry x="40" y="40" width="710" height="680" as="geometry" />
+          <mxGeometry x="40" y="40" width="710" height="1000" as="geometry" />
         </mxCell>
         <UserObject label="Planning Engineer.&lt;br&gt;Circulates deviation (*AFTER* approval)" name="Tessa Miller" position="CFO" location="Office 1" email="me@example.com" placeholders="1" id="dNxyNK7c78bLwvsdeMH5-12">
           <mxCell style="label;whiteSpace=wrap;html=1;rounded=0;glass=0;treeMoving=1;treeFolding=1;" parent="dNxyNK7c78bLwvsdeMH5-11" vertex="1">
-            <mxGeometry x="250" y="430" width="180" height="70" as="geometry" />
+            <mxGeometry x="250" y="430" width="190" height="70" as="geometry" />
           </mxCell>
         </UserObject>
         <mxCell id="dNxyNK7c78bLwvsdeMH5-13" value="" style="endArrow=blockThin;endFill=1;fontSize=11;edgeStyle=elbowEdgeStyle;elbow=vertical;rounded=0;" parent="dNxyNK7c78bLwvsdeMH5-11" source="dNxyNK7c78bLwvsdeMH5-12" target="dNxyNK7c78bLwvsdeMH5-14" edge="1">
@@ -26,9 +26,9 @@
         <mxCell id="dNxyNK7c78bLwvsdeMH5-15" value="" style="endArrow=blockThin;endFill=1;fontSize=11;edgeStyle=elbowEdgeStyle;elbow=vertical;rounded=0;" parent="dNxyNK7c78bLwvsdeMH5-11" source="dNxyNK7c78bLwvsdeMH5-12" target="dNxyNK7c78bLwvsdeMH5-16" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <UserObject label="MFG Engineer.&lt;br&gt;Create or Modify Programs.&lt;br&gt;Move to download JOB.&lt;br&gt;" name="Evan Valet" position="HR Director" location="Office 4" email="me@example.com" placeholders="1" id="dNxyNK7c78bLwvsdeMH5-16">
-          <mxCell style="label;whiteSpace=wrap;html=1;rounded=0;glass=0;treeFolding=1;treeMoving=1;" parent="dNxyNK7c78bLwvsdeMH5-11" vertex="1">
-            <mxGeometry x="250" y="560" width="180" height="80" as="geometry" />
+        <UserObject label="MFG Engineer.&lt;br&gt;Identify if &quot;new&quot; component exist in the production database, create if required.&lt;br&gt;Define applicable barcodes to identify component.&lt;br&gt;A: (Most robust)&lt;br&gt;Copy existing placement programs.&lt;br&gt;Modify copied placement lists as per changes identified in the deviation.&lt;br&gt;Create new recipes using modified boards.&lt;br&gt;Simulate to determine if set-up changes are required (parts to add).&lt;br&gt;Make required set-up changes if necessary.&lt;br&gt;Add new (deviated) recipes to production download JOB / Remove existing (non-deviation) recipe to prevent&amp;nbsp; use.&lt;br&gt;Programs.&lt;br&gt;&lt;div&gt;&lt;span&gt;Move to download JOB.&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span&gt;B: (Control using S/O)&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span&gt;Modify existing&amp;nbsp;components&amp;nbsp;to &quot;accept&quot; alternative barcode as valid entry.&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span&gt;No other action taken.&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span&gt;&lt;br&gt;&lt;/span&gt;&lt;/div&gt;" name="Evan Valet" position="HR Director" location="Office 4" email="me@example.com" placeholders="1" id="dNxyNK7c78bLwvsdeMH5-16">
+          <mxCell style="label;whiteSpace=wrap;html=1;rounded=0;glass=0;treeFolding=1;treeMoving=1;spacingLeft=0;align=left;" parent="dNxyNK7c78bLwvsdeMH5-11" vertex="1">
+            <mxGeometry x="240" y="560" width="210" height="430" as="geometry" />
           </mxCell>
         </UserObject>
         <mxCell id="dNxyNK7c78bLwvsdeMH5-17" value="" style="endArrow=blockThin;endFill=1;fontSize=11;edgeStyle=elbowEdgeStyle;elbow=vertical;rounded=0;" parent="dNxyNK7c78bLwvsdeMH5-11" source="dNxyNK7c78bLwvsdeMH5-12" target="dNxyNK7c78bLwvsdeMH5-18" edge="1">
@@ -57,28 +57,28 @@
             <mxGeometry x="250" y="50" width="180" height="70" as="geometry" />
           </mxCell>
         </UserObject>
-        <mxCell id="es1huuqaGist6g62GL2a-1" value="" style="endArrow=classic;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="dNxyNK7c78bLwvsdeMH5-11" source="MjClccZMk18TQqdO_Fq8-4" target="MjClccZMk18TQqdO_Fq8-3">
+        <mxCell id="es1huuqaGist6g62GL2a-1" value="" style="endArrow=classic;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="dNxyNK7c78bLwvsdeMH5-11" source="MjClccZMk18TQqdO_Fq8-4" target="MjClccZMk18TQqdO_Fq8-3" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="350" y="260" as="sourcePoint" />
             <mxPoint x="400" y="210" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="es1huuqaGist6g62GL2a-2" value="" style="endArrow=classic;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="dNxyNK7c78bLwvsdeMH5-11" source="MjClccZMk18TQqdO_Fq8-3" target="MjClccZMk18TQqdO_Fq8-1">
+        <mxCell id="es1huuqaGist6g62GL2a-2" value="" style="endArrow=classic;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="dNxyNK7c78bLwvsdeMH5-11" source="MjClccZMk18TQqdO_Fq8-3" target="MjClccZMk18TQqdO_Fq8-1" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="350" y="260" as="sourcePoint" />
             <mxPoint x="400" y="210" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="es1huuqaGist6g62GL2a-5" value="NEW!" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="dNxyNK7c78bLwvsdeMH5-11">
+        <mxCell id="es1huuqaGist6g62GL2a-5" value="NEW!" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="dNxyNK7c78bLwvsdeMH5-11" vertex="1">
           <mxGeometry x="70" y="360" width="40" height="20" as="geometry" />
         </mxCell>
-        <mxCell id="es1huuqaGist6g62GL2a-4" value="" style="endArrow=classic;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.525;entryY=0.036;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="MjClccZMk18TQqdO_Fq8-1" target="es1huuqaGist6g62GL2a-3">
+        <mxCell id="es1huuqaGist6g62GL2a-4" value="" style="endArrow=classic;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.525;entryY=0.036;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" source="MjClccZMk18TQqdO_Fq8-1" target="es1huuqaGist6g62GL2a-3" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="390" y="440" as="sourcePoint" />
             <mxPoint x="440" y="390" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="es1huuqaGist6g62GL2a-6" value="" style="endArrow=classic;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" target="dNxyNK7c78bLwvsdeMH5-12">
+        <mxCell id="es1huuqaGist6g62GL2a-6" value="" style="endArrow=classic;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" target="dNxyNK7c78bLwvsdeMH5-12" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="380" y="440" as="sourcePoint" />
             <mxPoint x="440" y="540" as="targetPoint" />
