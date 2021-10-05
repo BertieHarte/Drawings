@@ -1,14 +1,11 @@
-<mxfile host="app.diagrams.net" modified="2021-09-30T12:56:24.563Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.77 Safari/537.36" etag="8nlf9ArIvIlR4SyYsXC6" version="15.3.8" type="github">
+<mxfile host="app.diagrams.net" modified="2021-10-05T11:45:22.839Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.77 Safari/537.36" etag="jFQgKyabxL6yM66jWoMx" version="15.3.8" type="github">
   <diagram id="prtHgNgQTEPvFCAcTncT" name="Page-1">
-    <mxGraphModel dx="1038" dy="489" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1422" dy="762" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="es1huuqaGist6g62GL2a-3" value="" style="rounded=0;whiteSpace=wrap;html=1;align=center;" parent="1" vertex="1">
-          <mxGeometry x="160" y="390" width="420" height="50" as="geometry" />
-        </mxCell>
         <mxCell id="dNxyNK7c78bLwvsdeMH5-11" value="Alternative Components&amp;nbsp;" style="swimlane;html=1;startSize=20;horizontal=1;containerType=tree;glass=0;align=center;fillColor=#e51400;strokeColor=#B20000;fontColor=#ffffff;" parent="1" vertex="1">
-          <mxGeometry x="40" y="40" width="710" height="1000" as="geometry" />
+          <mxGeometry x="40" y="40" width="770" height="1000" as="geometry" />
         </mxCell>
         <UserObject label="Planning Engineer.&lt;br&gt;Circulates deviation (*AFTER* approval)" name="Tessa Miller" position="CFO" location="Office 1" email="me@example.com" placeholders="1" id="dNxyNK7c78bLwvsdeMH5-12">
           <mxCell style="label;whiteSpace=wrap;html=1;rounded=0;glass=0;treeMoving=1;treeFolding=1;" parent="dNxyNK7c78bLwvsdeMH5-11" vertex="1">
@@ -18,16 +15,16 @@
         <mxCell id="dNxyNK7c78bLwvsdeMH5-13" value="" style="endArrow=blockThin;endFill=1;fontSize=11;edgeStyle=elbowEdgeStyle;elbow=vertical;rounded=0;" parent="dNxyNK7c78bLwvsdeMH5-11" source="dNxyNK7c78bLwvsdeMH5-12" target="dNxyNK7c78bLwvsdeMH5-14" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <UserObject label="Master Data.&lt;br&gt;ERP BOM Maintenance" name="Edward Morrison" position="Brand Manager" location="Office 2" email="me@example.com" placeholders="1" id="dNxyNK7c78bLwvsdeMH5-14">
-          <mxCell style="label;whiteSpace=wrap;html=1;rounded=0;glass=0;treeFolding=1;treeMoving=1;" parent="dNxyNK7c78bLwvsdeMH5-11" vertex="1">
-            <mxGeometry x="30" y="560" width="180" height="80" as="geometry" />
+        <UserObject label="Master Data.&lt;br&gt;&lt;span style=&quot;font-size: 11pt ; font-family: &amp;#34;calibri&amp;#34; , sans-serif&quot;&gt;gathering relevant info from Purchasing &amp;amp; Controlling.&lt;br&gt;Move data to&amp;nbsp;&lt;/span&gt;&lt;span style=&quot;font-size: 11pt ; font-family: &amp;#34;calibri&amp;#34; , sans-serif&quot;&gt;KOI operational client.&amp;nbsp;&lt;/span&gt;&lt;span style=&quot;font-size: 11pt ; font-family: &amp;#34;calibri&amp;#34; , sans-serif&quot;&gt;&lt;br&gt;&lt;/span&gt;&lt;span style=&quot;font-size: 11pt ; font-family: &amp;#34;calibri&amp;#34; , sans-serif&quot;&gt;Set up a 2&lt;sup&gt;nd&lt;/sup&gt; SAP BoM change to revert to the pre-deviation&lt;br&gt;status.&lt;/span&gt;" name="Edward Morrison" position="Brand Manager" location="Office 2" email="me@example.com" placeholders="1" id="dNxyNK7c78bLwvsdeMH5-14">
+          <mxCell style="label;whiteSpace=wrap;html=1;rounded=0;glass=0;treeFolding=1;treeMoving=1;align=left;spacingLeft=0;verticalAlign=top;" parent="dNxyNK7c78bLwvsdeMH5-11" vertex="1">
+            <mxGeometry x="30" y="560" width="180" height="310" as="geometry" />
           </mxCell>
         </UserObject>
         <mxCell id="dNxyNK7c78bLwvsdeMH5-15" value="" style="endArrow=blockThin;endFill=1;fontSize=11;edgeStyle=elbowEdgeStyle;elbow=vertical;rounded=0;" parent="dNxyNK7c78bLwvsdeMH5-11" source="dNxyNK7c78bLwvsdeMH5-12" target="dNxyNK7c78bLwvsdeMH5-16" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <UserObject label="MFG Engineer.&lt;br&gt;Identify if &quot;new&quot; component exist in the production database, create if required.&lt;br&gt;Define applicable barcodes to identify component.&lt;br&gt;A: (Most robust)&lt;br&gt;Copy existing placement programs.&lt;br&gt;Modify copied placement lists as per changes identified in the deviation.&lt;br&gt;Create new recipes using modified boards.&lt;br&gt;Simulate to determine if set-up changes are required (parts to add).&lt;br&gt;Make required set-up changes if necessary.&lt;br&gt;Add new (deviated) recipes to production download JOB / Remove existing (non-deviation) recipe to prevent&amp;nbsp; use.&lt;br&gt;Programs.&lt;br&gt;&lt;div&gt;&lt;span&gt;Move to download JOB.&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span&gt;B: (Control using S/O)&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span&gt;Modify existing&amp;nbsp;components&amp;nbsp;to &quot;accept&quot; alternative barcode as valid entry.&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span&gt;No other action taken.&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span&gt;&lt;br&gt;&lt;/span&gt;&lt;/div&gt;" name="Evan Valet" position="HR Director" location="Office 4" email="me@example.com" placeholders="1" id="dNxyNK7c78bLwvsdeMH5-16">
-          <mxCell style="label;whiteSpace=wrap;html=1;rounded=0;glass=0;treeFolding=1;treeMoving=1;spacingLeft=0;align=left;" parent="dNxyNK7c78bLwvsdeMH5-11" vertex="1">
+          <mxCell style="label;whiteSpace=wrap;html=1;rounded=0;glass=0;treeFolding=1;treeMoving=1;spacingLeft=0;align=left;verticalAlign=top;" parent="dNxyNK7c78bLwvsdeMH5-11" vertex="1">
             <mxGeometry x="240" y="560" width="210" height="430" as="geometry" />
           </mxCell>
         </UserObject>
@@ -35,7 +32,7 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <UserObject label="&lt;div&gt;&lt;span&gt;Production Planner.&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span&gt;Create Shop Order (SAP).&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span&gt;Update Order Date/QTY. (SAP).&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span&gt;Identify Component(s) to change.(SAP BOM)&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span&gt;Change Component. (SAP BOM).&lt;/span&gt;&lt;/div&gt;&lt;div&gt;Work through each production order error and manually rectify.&lt;/div&gt;&lt;div&gt;Release each change.&lt;/div&gt;&lt;div&gt;(Repeat above for each component).&lt;/div&gt;&lt;div&gt;Save shop order.&lt;/div&gt;&lt;div&gt;Release Shop Order.&lt;/div&gt;&lt;div&gt;Update production plan with comment and&amp;nbsp; link to the applicable deviation.&lt;/div&gt;&lt;div&gt;Update production plan with comment and link to BIS if applicable.&lt;/div&gt;&lt;div&gt;Update Production plan with correct S.O. for the build.&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;span&gt;&lt;br&gt;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span&gt;&lt;br&gt;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span&gt;&lt;br&gt;&lt;/span&gt;&lt;/div&gt;" name="Alison Donovan" position="System Admin" location="Office 3" email="me@example.com" placeholders="1" id="dNxyNK7c78bLwvsdeMH5-18">
-          <mxCell style="label;whiteSpace=wrap;html=1;rounded=0;glass=0;align=left;spacingLeft=0;" parent="dNxyNK7c78bLwvsdeMH5-11" vertex="1">
+          <mxCell style="label;whiteSpace=wrap;html=1;rounded=0;glass=0;align=left;spacingLeft=0;verticalAlign=top;" parent="dNxyNK7c78bLwvsdeMH5-11" vertex="1">
             <mxGeometry x="480" y="560" width="200" height="370" as="geometry" />
           </mxCell>
         </UserObject>
@@ -49,8 +46,8 @@
             <mxGeometry x="250" y="150" width="180" height="70" as="geometry" />
           </mxCell>
         </UserObject>
-        <mxCell id="MjClccZMk18TQqdO_Fq8-2" value="Meeting with Key Stakeholders to discuss how to implement the requested changes." style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;hachureGap=4;pointerEvents=0;" parent="dNxyNK7c78bLwvsdeMH5-11" vertex="1">
-          <mxGeometry x="130" y="340" width="400" height="70" as="geometry" />
+        <mxCell id="MjClccZMk18TQqdO_Fq8-2" value="Meeting with Key Stakeholders to discuss how to implement the requested changes." style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;hachureGap=4;pointerEvents=0;rotation=90;" parent="dNxyNK7c78bLwvsdeMH5-11" vertex="1">
+          <mxGeometry x="520" y="570" width="400" height="70" as="geometry" />
         </mxCell>
         <UserObject label="TASK FORCE&lt;br&gt;Identifies Shortages and&lt;br&gt;Communicates with Design." name="Tessa Miller" position="CFO" location="Office 1" email="me@example.com" placeholders="1" id="MjClccZMk18TQqdO_Fq8-4">
           <mxCell style="label;whiteSpace=wrap;html=1;rounded=0;glass=0;treeMoving=1;treeFolding=1;align=center;spacingLeft=0;" parent="dNxyNK7c78bLwvsdeMH5-11" vertex="1">
@@ -69,19 +66,10 @@
             <mxPoint x="400" y="210" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="es1huuqaGist6g62GL2a-5" value="NEW!" style="text;html=1;strokeColor=#BD7000;fillColor=#f0a30a;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontColor=#000000;" parent="dNxyNK7c78bLwvsdeMH5-11" vertex="1">
-          <mxGeometry x="70" y="360" width="40" height="20" as="geometry" />
-        </mxCell>
-        <mxCell id="es1huuqaGist6g62GL2a-4" value="" style="endArrow=classic;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.525;entryY=0.036;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" source="MjClccZMk18TQqdO_Fq8-1" target="es1huuqaGist6g62GL2a-3" edge="1">
+        <mxCell id="es1huuqaGist6g62GL2a-4" value="" style="endArrow=classic;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="dNxyNK7c78bLwvsdeMH5-11" source="MjClccZMk18TQqdO_Fq8-1" target="dNxyNK7c78bLwvsdeMH5-12" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="390" y="440" as="sourcePoint" />
-            <mxPoint x="440" y="390" as="targetPoint" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="es1huuqaGist6g62GL2a-6" value="" style="endArrow=classic;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" target="dNxyNK7c78bLwvsdeMH5-12" edge="1">
-          <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="380" y="440" as="sourcePoint" />
-            <mxPoint x="440" y="540" as="targetPoint" />
+            <mxPoint x="350" y="400" as="sourcePoint" />
+            <mxPoint x="340.5" y="351.79999999999995" as="targetPoint" />
           </mxGeometry>
         </mxCell>
       </root>
