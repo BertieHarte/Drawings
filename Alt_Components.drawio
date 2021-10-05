@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-10-05T11:58:42.668Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.77 Safari/537.36" etag="8pp_-8tjlZOiu1vccjF1" version="15.3.8" type="github">
+<mxfile host="app.diagrams.net" modified="2021-10-05T12:01:02.325Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.77 Safari/537.36" etag="P0Y48yI6aUQURsVkfdM8" version="15.3.8" type="github">
   <diagram id="prtHgNgQTEPvFCAcTncT" name="Page-1">
     <mxGraphModel dx="1038" dy="547" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -77,12 +77,6 @@
             <mxGeometry x="250" y="340" width="190" height="70" as="geometry" />
           </mxCell>
         </UserObject>
-        <mxCell id="haE7o8mUCu6ldyy6o2zC-2" value="" style="endArrow=classic;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="dNxyNK7c78bLwvsdeMH5-11" source="MjClccZMk18TQqdO_Fq8-1" target="haE7o8mUCu6ldyy6o2zC-1">
-          <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="340" y="320" as="sourcePoint" />
-            <mxPoint x="345" y="430" as="targetPoint" />
-          </mxGeometry>
-        </mxCell>
         <mxCell id="haE7o8mUCu6ldyy6o2zC-3" value="* Technical Release = what to do, not how to implement the requested changes. i.e what components / ref des. to change on what article(s)" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="dNxyNK7c78bLwvsdeMH5-11">
           <mxGeometry x="470" y="340" width="230" height="60" as="geometry" />
         </mxCell>
